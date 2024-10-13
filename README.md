@@ -1,4 +1,4 @@
-## Evluation Tools for Personalized Image Generation
+## Evaluation Tools for Personalized Image Generation
 This is the evaluation toolkit for NeurIPS 2024 paper [RectifID: Personalizing Rectified Flow with Anchored Classifier Guidance](https://arxiv.org/abs/2405.14677).
 ### Set up
 Our code mainly bases on [CelebBasis](https://github.com/ygtxr1997/CelebBasis). We use their environment to initialize.
