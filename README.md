@@ -1,4 +1,4 @@
-## Evluation Tools for Customized Image Generation
+## Evaluation Tools for Customized Image Generation
 ### Set up
 Our code mainly bases on [CelebBasis](https://github.com/ygtxr1997/CelebBasis). We use their environment to initialize.
 ```
