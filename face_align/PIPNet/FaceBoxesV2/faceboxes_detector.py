@@ -1,13 +1,13 @@
-from evaluation.face_align.PIPNet.FaceBoxesV2.detector import Detector
+from face_align.PIPNet.FaceBoxesV2.detector import Detector
 import cv2, os
 import numpy as np
 import torch
 import torch.nn as nn
-from evaluation.face_align.PIPNet.FaceBoxesV2.utils.config import cfg
-from evaluation.face_align.PIPNet.FaceBoxesV2.utils.prior_box import PriorBox
+from face_align.PIPNet.FaceBoxesV2.utils.config import cfg
+from face_align.PIPNet.FaceBoxesV2.utils.prior_box import PriorBox
 # from evaluation.face_align.PIPNet.FaceBoxesV2.utils.nms_wrapper import nms
-from evaluation.face_align.PIPNet.FaceBoxesV2.utils.faceboxes import FaceBoxesV2
-from evaluation.face_align.PIPNet.FaceBoxesV2.utils.box_utils import decode
+from face_align.PIPNet.FaceBoxesV2.utils.faceboxes import FaceBoxesV2
+from face_align.PIPNet.FaceBoxesV2.utils.box_utils import decode
 import time
 
 import numpy as np

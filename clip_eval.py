@@ -8,8 +8,8 @@ import torch.nn.functional as F
 from torchvision import transforms
 import sys
 import os
-os.chdir("/root/CelebBasis")
-sys.path.append("/root/CelebBasis")
+# os.chdir("/root/CelebBasis")
+# sys.path.append("/root/CelebBasis")
 
 from base_class import EvaluatorBase
 from face_align.PIPNet.alignment.alignment import norm_crop
@@ -17,7 +17,7 @@ from face_align.PIPNet.alignment.landmarks import get_5_from_98
 from face_align.PIPNet.lib.tools import get_lmk_model, demo_image
 
 from ldm.modules.id_embedding.iresnet import iresnet100
-from evaluation.face_align import cosface
+from face_align import cosface
 import insightface
 from onnx2torch import convert
 from PIL import Image

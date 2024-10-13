@@ -6,6 +6,7 @@ Our code mainly bases on [CelebBasis](https://github.com/ygtxr1997/CelebBasis). 
 conda env create -f environment.yaml
 conda activate sd
 pip install insightface
+pip install onnx2torch
 ```
 
 ### Download Model

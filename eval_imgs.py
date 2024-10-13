@@ -5,8 +5,8 @@ import argparse
 from parse_args import parser_eval
 from base_class_ours import IDCLIPScoreCalculator
 from clip_eval import IdCLIPEvaluator
-os.chdir('/root/CelebBasis/evaluation')
-sys.path.append('/root/CelebBasis/evaluation')
+# os.chdir('/root/CelebBasis/evaluation')
+# sys.path.append('/root/CelebBasis/evaluation')
 
 
 # 给src image, tgt image, prompt
